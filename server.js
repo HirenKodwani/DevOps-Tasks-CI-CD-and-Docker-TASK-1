@@ -5,5 +5,7 @@ app.get("/", (req, res) => {
   res.send("CI/CD Pipeline Deployed Successfully!");
 });
 
-app.get("/health", (req,res)=> res.json({status:"ok",uptime: process.uptime()}));
+app.listen(3000, () => {
+    console.log("Server running on port 3000");
+});
 
