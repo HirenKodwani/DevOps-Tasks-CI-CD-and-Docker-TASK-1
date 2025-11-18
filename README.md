@@ -1,6 +1,6 @@
 CI/CD Pipeline for Node.js App using GitHub Actions & DockerHub
 
-This repository contains Task 1 of the DevOps Internship: Automating Code Deployment using a complete CI/CD pipeline powered by GitHub Actions and DockerHub.
+This repository contains Task 1 & 4 of the DevOps Internship: Automating Code Deployment using a complete CI/CD pipeline powered by GitHub Actions and DockerHub.
 
 The goal of this project is to demonstrate how modern DevOps teams automate application build, testing, containerization, and deployment using CI/CD workflows.
 
@@ -71,6 +71,31 @@ The workflow supports running tests automatically if you include a test script i
 npm test
 
 If no tests exist, the pipeline continues safely.
+
+### Summary
+This PR adds documentation and housekeeping for Task 4:
+- `.gitignore` (Node)
+- `README.md` (Task 4 details + run instructions)
+- `TASKS.md` (task-by-task checklist and proof)
+- `CHANGELOG.md` (initial entry)
+- /docs screenshots and logs
+
+### Files changed
+- .gitignore
+- README.md
+- TASKS.md
+- CHANGELOG.md
+- docs/*
+
+### How to review
+1. Check README for clarity.
+2. Verify TASKS.md steps map to required deliverables.
+3. Inspect docs/screenshots proof.
+
+### Related
+Closes: TASK-4 (DevOps Internship)
+
+
 
 📝 How to Run Locally Clone the repo git clone cd nodejs-demo-app
 
