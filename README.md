@@ -72,31 +72,6 @@ npm test
 
 If no tests exist, the pipeline continues safely.
 
-### Summary
-This PR adds documentation and housekeeping for Task 4:
-- `.gitignore` (Node)
-- `README.md` (Task 4 details + run instructions)
-- `TASKS.md` (task-by-task checklist and proof)
-- `CHANGELOG.md` (initial entry)
-- /docs screenshots and logs
-
-### Files changed
-- .gitignore
-- README.md
-- TASKS.md
-- CHANGELOG.md
-- docs/*
-
-### How to review
-1. Check README for clarity.
-2. Verify TASKS.md steps map to required deliverables.
-3. Inspect docs/screenshots proof.
-
-### Related
-Closes: TASK-4 (DevOps Internship)
-
-
-
 📝 How to Run Locally Clone the repo git clone cd nodejs-demo-app
 
 Install dependencies npm install
